@@ -4,6 +4,7 @@
   --color-base: black;
   --color-base-light: grey;
   --color-base-inverse: white;
+  --color-bg: #fefefe;
   --color-primary: #00cdae;
   --color-border: rgba(0, 0, 0, 0.2);
   --radius: 10px;
@@ -140,21 +141,14 @@ button:hover {
 
 button:active {
   border: 1px solid var(--color-primary);
-  background-color: var(--color-base-inverse);
+  background-color: var(--color-bg);
   color: var(--color-primary);
   cursor: pointer;
 }
 
 button.active {
   border: 1px solid var(--color-primary);
-  background-color: var(--color-base-inverse);
+  background-color: var(--color-bg);
   color: var(--color-primary);
   cursor: pointer;
-}
-
-button .container {
-  padding: 1.25rem 1.875rem;
-  max-width: 630px;
-  margin-left: auto;
-  margin-right: auto;
 }
